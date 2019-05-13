@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "cp:rich_wand"
+		},
+		"title": {
+			"translate": "advancement.rich_tool"
+		},
+		"description": {
+			"translate": "advancement.rich_tool.desc"
+		}
+	},
+	"parent": "cp:cashing_tool",
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "cp:rich_wand"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ]
+}

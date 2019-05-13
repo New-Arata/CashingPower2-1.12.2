@@ -1,0 +1,86 @@
+{
+	"display": {
+		"icon": {
+			"item": "cp:cashing_wand"
+		},
+		"title": {
+			"translate": "advancement.cashing_tool"
+		},
+		"description": {
+			"translate": "advancement.cashing_tool.desc"
+		}
+	},
+	"parent": "cp:root",
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "cp:cashing_sword"
+                    }
+                ]
+            }
+        },
+         "2": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "cp:cashing_pickaxe"
+                    }
+                ]
+            }
+        },
+         "3": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "cp:cashing_shovel"
+                    }
+                ]
+            }
+        },
+         "4": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "cp:cashing_axe"
+                    }
+                ]
+            }
+        },
+         "5": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "cp:cashing_hoe"
+                    }
+                ]
+            }
+        },
+         "6": {
+            "trigger": "minecraft:inventory_changed",
+             "conditions": {
+                "items": [
+                    {
+                        "item": "cp:cashing_wand"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
+    ]
+}

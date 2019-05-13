@@ -1,0 +1,37 @@
+//item
+item.mp_coin.name=MP Coin
+item.cashing_sword.name=Cashing Sword
+item.cashing_shovel.name=Cashing Shovel
+item.cashing_pickaxe.name=Cashing Pickaxe
+item.cashing_axe.name=Cashing Axe
+item.cashing_hoe.name=Cashing Hoe
+item.cashing_wand.name=Cashing Wand
+
+//block
+tile.shipping_box.name=Shipping Box
+tile.piggy_bank.name=Piggy Bank
+
+//entity
+entity.mplich.name=Lich
+
+//gui
+gui.private='s
+gui.shippingbox= Shipping Box
+
+//enchant
+enchantment.economize=Economize
+enchantment.secret_savings=Secret Savings
+
+//advancements
+advancement.cashingpower2=CashingPower2
+advancement.cashingpower2.desc=Many money!
+advancement.has_mp_1=Take care of the penny
+advancement.has_mp_1.desc=Acquire MP
+advancement.has_mp_2=Millionaire
+advancement.has_mp_2.desc=Have MP more than 1000000
+advancement.has_mp_3=Billionaire
+advancement.has_mp_3.desc=Have MP more than 1000000000
+advancement.cashing_tool=Money is power!
+advancement.cashing_tool.desc=Obtain a Cashing tool
+advancement.rich_tool=Rich? Lich?
+advancement.rich_tool.desc=Slay the lich and obtain a Rich tool

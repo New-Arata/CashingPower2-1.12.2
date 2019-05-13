@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "XXX",
+        "XYX",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+             "item": "minecraft:stained_hardened_clay",
+             "data": 6
+        },
+        "Y": {
+             "item": "minecraft:chest"
+        }
+    },
+    "result": {
+        "item": "cp:piggy_bank"
+    }
+}

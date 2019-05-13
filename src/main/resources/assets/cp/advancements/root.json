@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "cp:cashing_pickaxe"
+		},
+		"title": {
+			"translate": "advancement.cashingpower2"
+		},
+		"description": {
+			"translate": "advancement.cashingpower2.desc"
+		},
+		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+		"show_toast": false,
+        "announce_to_chat": false
+	},
+	"criteria": {
+        "has_mp": {
+            "trigger": "cp:has_mp_1"
+		}
+	},
+	"rewards":
+	{
+    }
+}

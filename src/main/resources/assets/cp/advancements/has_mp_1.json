@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "cp:mp_coin"
+		},
+		"title": {
+			"translate": "advancement.has_mp_1"
+		},
+		"description": {
+			"translate": "advancement.has_mp_1.desc"
+		}
+	},
+	"parent": "cp:root",
+    "criteria": {
+        "has_mp": {
+            "trigger": "cp:has_mp_1"
+        }
+    }
+}
